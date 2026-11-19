@@ -1,38 +1,18 @@
 {
-  "geode": "$GEODE_VERSION",
+  "geode": "6.0.0-alpha.2",
   "gd": {
-    "win": "2.209"
+    "win": "2.2091"
   },
   "id": "justadoge.labels",
   "name": "Labels",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "developer": "Justa-Doge",
-  "description": "Custom on-screen labels for Geometry Dash.",
-  "settings": {
-    "overlay": {
-      "type": "bool",
-      "name": "Show label",
-      "description": "Show the label while playing a level.",
-      "default": true
-    },
-    "format": {
-      "type": "string",
-      "name": "Label format",
-      "description": "Use plain text and {progress}, {fps}, {time}. Example: Progress: {progress}%",
-      "default": "Progress: {progress}%"
-    },
-    "scale": {
-      "type": "float",
-      "name": "Label scale",
-      "description": "Size of the on-screen label.",
-      "default": 0.7,
-      "min": 0.25,
-      "max": 2.0,
-      "control": {
-        "slider": true,
-        "slider-step": 0.05,
-        "input": true
-      }
-    }
+  "description": "A standalone label maker with Eclipse-style RIFT expressions and .ecl import.",
+  "resources": {
+    "files": [
+      "resources/presets/*.ecl"
+    ]
   }
 }
+
+
