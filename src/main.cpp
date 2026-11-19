@@ -67,7 +67,7 @@ std::string formatLabel(std::string const& format, PlayLayer* layer, float dt) {
 }
 
 class $modify(LabelsPlayLayer, PlayLayer) {
-    bool init(G等JGameLevel* level, bool useReplay, bool dontCreateObjects) {
+    bool init(GJGameLevel* level, bool useReplay, bool dontCreateObjects) {
         if (!PlayLayer::init(level, useReplay, dontCreateObjects)) {
             return false;
         }
